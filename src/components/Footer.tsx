@@ -20,12 +20,19 @@ export const Footer: React.FC<FooterProps> = ({ navigate }) => {
           {/* Col 1: Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-red-600 to-red-900 border border-amber-500/60 flex items-center justify-center text-amber-400 font-display font-bold text-base shadow">
-                武
+              <img
+                src={SITE_INFO.logoPlaceholder}
+                alt="Logo Academia Punhos Do Sul"
+                className="w-11 h-11 object-contain rounded-full border border-amber-500/60 p-0.5 bg-black/60 shadow-lg"
+              />
+              <div>
+                <span className="font-chinese text-lg font-bold text-amber-400 tracking-wider uppercase block leading-tight">
+                  Punhos Do Sul
+                </span>
+                <span className="text-[10px] text-gray-400 tracking-widest uppercase font-chinese">
+                  Kung Fu Shaolin
+                </span>
               </div>
-              <span className="font-display text-lg font-bold text-amber-400 tracking-wider uppercase">
-                Punhos Do Sul
-              </span>
             </div>
             <p className="text-xs leading-relaxed text-gray-400">
               {SITE_INFO.subtitle}. Tradição, disciplina e respeito através do verdadeiro Kung Fu Shaolin.
