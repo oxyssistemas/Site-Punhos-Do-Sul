@@ -101,7 +101,7 @@ export const SandaPage: React.FC<SandaPageProps> = ({ navigate }) => {
         <div className="absolute inset-0 opacity-20">
           <ImagePlaceholder
             src="/images/subpages/sanda-hero.jpg"
-            alt="Sanda Boxe Chinês e Sanshou"
+            alt="Sanda e Sanshou"
             className="w-full h-full object-cover"
             aspectRatio="h-full w-full"
           />
@@ -129,7 +129,7 @@ export const SandaPage: React.FC<SandaPageProps> = ({ navigate }) => {
             <ChevronRight className="w-3.5 h-3.5 text-red-500" />
             <span className="text-gray-300">Modalidades</span>
             <ChevronRight className="w-3.5 h-3.5 text-red-500" />
-            <span className="text-amber-400">Sanda (Boxe Chinês)</span>
+            <span className="text-amber-400">Sanda</span>
           </motion.div>
 
           <motion.div
@@ -140,7 +140,7 @@ export const SandaPage: React.FC<SandaPageProps> = ({ navigate }) => {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-950/60 border border-red-800/40 text-amber-400 text-xs font-semibold uppercase tracking-widest">
               <Flame className="w-3.5 h-3.5 text-amber-400" />
-              <span>Boxe Chinês & Kickboxing Tradicional ( 散打 / 散手 )</span>
+              <span>Combate & Kickboxing Tradicional ( 散打 / 散手 )</span>
             </div>
 
             {/* Title with Shojumaru Font */}
@@ -204,7 +204,7 @@ export const SandaPage: React.FC<SandaPageProps> = ({ navigate }) => {
               >
                 <ImagePlaceholder
                   src="/images/subpages/sanda-intro.jpg"
-                  alt="Lutadores de Sanda Boxe Chinês em Ação"
+                  alt="Lutadores de Sanda em Ação"
                   aspectRatio="aspect-[4/3]"
                   caption="Combinação explosiva de trocação com socos, chutes e projeções ao solo"
                 />
@@ -494,7 +494,7 @@ export const SandaPage: React.FC<SandaPageProps> = ({ navigate }) => {
             className="inline-flex items-center gap-2 bg-gradient-to-r from-red-700 to-red-600 hover:from-red-600 hover:to-red-500 text-white font-bold text-xs sm:text-sm uppercase tracking-widest px-6 py-3.5 rounded border border-amber-500/60 shadow-lg shadow-red-950 transition-all active:scale-98"
           >
             <MessageCircle className="w-4 h-4 text-emerald-300" />
-            <span>Agendar Aula de Sanda (Boxe Chinês)</span>
+            <span>Agendar Aula de Sanda</span>
           </a>
         </motion.div>
       </div>
