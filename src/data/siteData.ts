@@ -19,6 +19,7 @@ export const SITE_INFO = {
 };
 
 export const MODALITIES_NAV = [
+  { name: 'Boxe Chinês', href: '/#card-boxe-chines' },
   { name: 'Kung Fu', href: '/kung-fu-1' },
   { name: 'Tai Chi Chuan', href: '/tai-chi-chuan' },
   { name: 'Chi Kung', href: '/chi-kung' },
@@ -48,6 +49,13 @@ export const MASTERS_NAV_ITEMS = [
 ];
 
 export const HOME_CARDS: ModalityCard[] = [
+  {
+    id: 'boxe-chines',
+    title: 'Boxe Chinês',
+    description: 'O Boxe Chinês é uma modalidade dinâmica de combate que reúne socos potentes, chutes velozes, defesas atentas e projeções, proporcionando excelente queima calórica, reflexos rápidos e alto condicionamento físico.',
+    href: '#boxe-chines',
+    imagePlaceholder: '/images/modalidades/boxe-chines.jpg',
+  },
   {
     id: 'kung-fu',
     title: 'kung fu',
